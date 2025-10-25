@@ -1,0 +1,52 @@
+@font-face {
+    font-family: machida;
+    src: url(Neue\ Machina\ -\ Free\ for\ Personal\ Use/);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, 
+body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #111;
+}
+
+.page1, .page2, .page3{
+    height: 100%;
+    width: 100%;
+}
+
+.page2 .move{
+    width: 100%;
+    background-color: #D9F824;
+    padding: 3vw 0;
+    display: flex;
+    overflow: hidden;
+    gap: 32px;
+}
+
+.texts{
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 32px;
+    transform: translateX(-100%);
+
+}
+
+.texts h1{
+    font-size: 4vw;
+}
+
+.texts img{
+    height: 80px;
+    width: 4vw;
+}
